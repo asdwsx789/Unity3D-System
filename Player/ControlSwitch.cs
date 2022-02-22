@@ -31,10 +31,12 @@ public class ControlSwitch : MonoBehaviour
             if(Switch)
             {
                 Cursor.lockState = CursorLockMode.Locked;
+                print("InventorySlot Close");
             }
             else
             {
                 Cursor.lockState = CursorLockMode.None;
+                print("InventorySlot Open");
             }
         }
     }
